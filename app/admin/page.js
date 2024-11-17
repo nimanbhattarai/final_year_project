@@ -13,7 +13,7 @@ function DashboardCard({ title, description, link }) {
 export default function AdminPanel() {
   return React.createElement(
     'div',
-    { className: "min-h-screen bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 p-8" },
+    { className: "min-h-screen bg- p-8" },
     React.createElement(
       'div',
       { className: "max-w-6xl mx-auto" },
@@ -21,16 +21,40 @@ export default function AdminPanel() {
       React.createElement(
         'div',
         { className: "grid text-black grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" },
-        React.createElement(DashboardCard, { title: "Students", description: "Manage student records", link: "/admin/students" }),
-        React.createElement(DashboardCard, { title: "Courses", description: "Manage course offerings", link: "/admin/courses" }),
-        React.createElement(DashboardCard, { title: "Faculty", description: "Manage faculty members", link: "/admin/faculty" }),
-        React.createElement(DashboardCard, { title: "Schedules", description: "Manage class schedules", link: "/admin/schedules" }),
-        React.createElement(DashboardCard, { title: "Grades", description: "Manage grading system", link: "/admin/grades" }),
-        React.createElement(DashboardCard, { title: "Reports", description: "Generate and view reports", link: "/admin/reports" })
+        React.createElement(
+          'div',
+          {className: "border rounded-lg"},
+          React.createElement(DashboardCard, { title: "Students", description: "Manage student records", link: "/admin/students" }),
+        ),
+        React.createElement(
+          'div',
+          {className: "border rounded-lg"},
+          React.createElement(DashboardCard, { title: "Courses", description: "Manage course offerings", link: "/admin/courses" }),
+        ),
+        React.createElement(
+          'div',
+          {className: "border rounded-lg"},
+          React.createElement(DashboardCard, { title: "Faculty", description: "Manage faculty members", link: "/admin/faculty" }),
+        ),
+        React.createElement(
+          'div',
+          {className: "border rounded-lg"},
+          React.createElement(DashboardCard, { title: "Schedules", description: "Manage class schedules", link: "/admin/schedules" }),
+        ),
+        React.createElement(
+          'div',
+          {className: "border rounded-lg"},
+          React.createElement(DashboardCard, { title: "Grades", description: "Manage grading system", link: "/admin/grades" }),
+        ),
+        React.createElement(
+          'div',
+          {className: "border rounded-lg "},
+          React.createElement(DashboardCard, { title: "Reports", description: "Generate and view reports", link: "/admin/reports" })
+        ),
       ),
       React.createElement(
         Link,
-        { href: "/", className: "mt-8 inline-block bg-white text-pink-500 font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-105" },
+        { href: "/", className: "mt-8 inline-block border bg- text-black font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-105" },
         "Back to Home"
       )
     )

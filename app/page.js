@@ -56,7 +56,7 @@ export default function Home() {
         'div',
         { className: 'flex items-center gap-4' },
       React.createElement('img',{src:'bell.png', alt: 'bell icon', width: 30, height: 30}),
-      React.createElement('h2', { className: 'text-2xl font-semibold mb-4 text-green-500 pt-4' }, 'Latest News'),
+      React.createElement('h2', { className: 'text-2xl font-semibold mb-4 text-green-500 pt-4 animate-bounce' }, 'Latest News'),
       ),
       React.createElement(
         'ul',
