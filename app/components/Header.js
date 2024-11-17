@@ -13,7 +13,7 @@ export default function Header() {
 
   return React.createElement(
     'header',
-    { className: 'bg-blue-600 text-white p-4' },
+    { className: 'text-black font-bold p-4 border border-b' },
     React.createElement(
       'div',
       { className: 'container mx-auto flex justify-between items-center' },

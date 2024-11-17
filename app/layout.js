@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
     { lang: 'en' },
     React.createElement(
       'body',
-      { className: `${inter.className} min-h-screen flex flex-col bg-purple-500` },
+      { className: `${inter.className} min-h-screen flex flex-col` },
       React.createElement(Header, null),
       React.createElement('main', { className: 'flex-grow' }, children),
       React.createElement(

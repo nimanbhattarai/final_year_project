@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function About() {
   return React.createElement(
     'div',
-    { className: 'container mx-auto px-4 py-8' },
+    { className: 'container mx-auto px-4 py-8 text-black' },
     React.createElement('h1', { className: 'text-4xl font-bold mb-8 text-center' }, 'About Our College'),
     React.createElement(
       'div',

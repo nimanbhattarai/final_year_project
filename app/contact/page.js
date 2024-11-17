@@ -27,7 +27,7 @@ export default function Contact() {
 
   return React.createElement(
     'div',
-    { className: 'container mx-auto px-4 py-8' },
+    { className: 'container mx-auto px-4 py-8 text-black' },
     React.createElement('h1', { className: 'text-4xl font-bold mb-8 text-center' }, 'Contact Us'),
     React.createElement(
       'div',
@@ -89,9 +89,9 @@ export default function Contact() {
         React.createElement(
           'ul',
           { className: 'space-y-2' },
-          React.createElement('li', null, 'Phone: (123) 456-7890'),
-          React.createElement('li', null, 'Email: info@collegename.edu'),
-          React.createElement('li', null, 'Address: 123 College St, City, State, ZIP')
+          React.createElement('li', null, 'Phone: 020-24407100'),
+          React.createElement('li', null, 'Email: info@bvdu.edu.in'),
+          React.createElement('li', null, 'Address: Bharati Vidyapeeth Bhavan, Lal Bahadur Shastri Marg, PUNE - 411030')
         )
       ),
       React.createElement(
