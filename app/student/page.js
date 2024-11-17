@@ -25,38 +25,38 @@ export default function StudentPanel() {
 
         React.createElement(
         'div',
-        {className:"border rounded-lg"},
+        {className:"border rounded-lg bg-slate-300"},
         React.createElement(DashboardCard, { title: "Courses", description: "View and manage your courses", link: "/student/courses" }),
       ),
       React.createElement(
         'div',
-        {className:"border rounded-lg"},
-        React.createElement(DashboardCard, { title: "Grades", description: "Check your grades and academic progress", link: "/student/grades" }),
+        {className:"border rounded-lg bg-slate-300"},
+        React.createElement(DashboardCard, { title: "Grades", description: "Check your academic progress", link: "/student/grades" }),
       ),
       React.createElement(
         'div',
-        {className:"border rounded-lg"},
+        {className:"border rounded-lg bg-slate-300"},
         React.createElement(DashboardCard, { title: "Schedule", description: "View your class schedule", link: "/student/schedule" }),
       ),
       React.createElement(
         'div',
-        {className:"border rounded-lg"},
+        {className:"border rounded-lg bg-slate-300"},
         React.createElement(DashboardCard, { title: "Assignments", description: "Manage your assignments", link: "/student/assignments" }),
       ),
       React.createElement(
         'div',
-        {className:"border rounded-lg"},
+        {className:"border rounded-lg bg-slate-300"},
         React.createElement(DashboardCard, { title: "Profile", description: "Update your personal information", link: "/student/profile" }),
       ),
       React.createElement(
         'div',
-        {className:"border rounded-lg"},
+        {className:"border rounded-lg bg-slate-300"},
         React.createElement(DashboardCard, { title: "Resources", description: "Access study materials and resources", link: "/student/resources" })
       ),
     ),
       React.createElement(
         Link,
-        { href: "/", className: "mt-8 inline-block bg-white text-blue-500 font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-105" },
+        { href: "/", className: "mt-8 inline-block border bg-[rgb(245,245,245)] text-black font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-105" },
         "Back to Home"
       )
     )
